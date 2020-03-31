@@ -82,7 +82,7 @@ module.exports = function core(defaultLibraryName) {
           if (libraryObjs[methodName]) {
             /* istanbul ingore next */
             if (cache[libraryName] === 2) {
-              throw Error('[babel-plugin-component] If you are using both' +
+              throw Error('[babel-plugin-elementui-demand] If you are using both' +
                 'on-demand and importing all, make sure to invoke the' +
                 ' importing all first.');
             }

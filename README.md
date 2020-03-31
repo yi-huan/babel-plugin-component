@@ -23,7 +23,7 @@ npm i babel-plugin-elementui-demand -D
 module.exports = {
   "plugins": [
     [
-      "component",
+      "elementui-demand",
       {
         "libraryName": "element-ui",
         "styleLibraryName": "theme-chalk",

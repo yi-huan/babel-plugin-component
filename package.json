@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-elementui-demand",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Element UI 按需加载组件时使用 scss 以能直接修改主题色",
   "main": "lib/index.js",
   "scripts": {
