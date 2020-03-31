@@ -3,3 +3,9 @@ tmp
 node_modules
 coverage
 __tests__
+src
+test
+.travis.yml
+.eslintrc
+.eslintignore
+package-lock.json

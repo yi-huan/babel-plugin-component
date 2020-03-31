@@ -76,7 +76,7 @@ module.exports = function core(defaultLibraryName) {
             const themeName = styleLibraryName.replace(/^~/, '');
             cachePath[libraryName] = styleLibraryName.indexOf('~') === 0
               ? resolve(process.cwd(), themeName)
-              : `${libraryName}/${libDir}/${themeName}`;
+              : ext === '.scss' && options.isElementUI ? `${libraryName}/packages/${themeName}/src` : `${libraryName}/${libDir}/${themeName}`;
           }
 
           if (libraryObjs[methodName]) {

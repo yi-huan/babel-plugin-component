@@ -1,10 +1,10 @@
 {
-  "name": "babel-plugin-component",
-  "version": "1.1.1",
-  "description": "Modular build plugin for babel.",
+  "name": "babel-plugin-elementui-demand",
+  "version": "1.1.2",
+  "description": "Element UI 按需加载组件时使用 scss 以能直接修改主题色",
   "main": "lib/index.js",
   "scripts": {
-    "build": "rm -rf lib && babel src --out-dir lib --ignore __tests__",
+    "build": "./node_modules/.bin/rimraf lib && babel src --out-dir lib --ignore __tests__",
     "test": "mocha --require @babel/register",
     "debug": "mocha --require @babel/register --require @babel/polyfill --no-timeouts",
     "lint": "eslint --ext .js src",
@@ -18,6 +18,7 @@
     "babel-plugin"
   ],
   "author": [
+    "yi-huan",
     "chencheng <sorrycc@gmail.com>",
     "qingwei-li <cinwell.li@gmail.com>"
   ],
@@ -37,10 +38,10 @@
     "mocha": "4.0.1",
     "pre-commit": "~1.1.2"
   },
-  "repository": "ElementUI/babel-plugin-component",
-  "homepage": "https://github.com/ElementUI/babel-plugin-component#readme",
+  "repository": "yi-huan/babel-plugin-component",
+  "homepage": "https://github.com/yi-huan/babel-plugin-component#readme",
   "bugs": {
-    "url": "https://github.com/ElementUI/babel-plugin-component/issues"
+    "url": "https://github.com/yi-huan/babel-plugin-component/issues"
   },
   "babel": {
     "presets": [
