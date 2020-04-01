@@ -1,8 +1,7 @@
 # babel-plugin-component
 
-[![NPM version](https://img.shields.io/npm/v/babel-plugin-component.svg)](https://npmjs.org/package/babel-plugin-component)
-[![Build Status](https://travis-ci.org/ElementUI/babel-plugin-component.svg?branch=master)](https://travis-ci.org/ElementUI/babel-plugin-component)
-[![Coverage Status](https://coveralls.io/repos/github/QingWei-Li/babel-plugin-component/badge.svg?branch=master)](https://coveralls.io/github/QingWei-Li/babel-plugin-component?branch=master)
+[![NPM version](https://img.shields.io/npm/v/babel-plugin-elementui-demand.svg)](https://www.npmjs.com/package/babel-plugin-elementui-demand)
+
 
 ## 安装
 
