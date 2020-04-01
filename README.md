@@ -1,7 +1,9 @@
-# babel-plugin-component
+# babel-plugin-elementui-demand
 
 [![NPM version](https://img.shields.io/npm/v/babel-plugin-elementui-demand.svg)](https://www.npmjs.com/package/babel-plugin-elementui-demand)
 
+用于 [Element](https://element.eleme.cn/#/zh-CN/component/custom-theme) 按需引入组件后引入对应的样式。  
+使直接修改 Element 里定义的主题 [scss 变量](https://github.com/ElementUI/theme-chalk/blob/master/src/common/var.scss)后能直接在开发模式直接生效。
 
 ## 安装
 
@@ -54,6 +56,8 @@ module.exports = {
 `/src/assets/element-variables.scss`
 
 ```scss
+// 改变变量后立即生效
+
 /* 改变主题色变量 */
 $--color-primary: #f00;
 ```
